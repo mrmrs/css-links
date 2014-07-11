@@ -21,15 +21,15 @@ or download the css on github and include in your project.
 ```
 .link { text-decoration: none; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .link-ns { text-decoration: none; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .link-m { text-decoration: none; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .link-l { text-decoration: none; }
 }
 

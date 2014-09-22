@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-links)
 ## File Size
 
 306B links.css
-249B links.min.css
+249B links.min.css 
+123B minified and gzipped
 
 ## The Code
 ```

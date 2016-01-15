@@ -1,15 +1,14 @@
+/*
+   LINKS
+*/
+.link { text-decoration: none; }
+@media screen and (min-width: 48em) {
+ .link-ns { text-decoration: none; }
+}
+@media screen and (min-width:48em) and (max-width: 64em) {
+ .link-m { text-decoration: none; }
+}
+@media screen and (min-width: 64em) {
+ .link-l { text-decoration: none; }
+}
 
-  Postprocess tachyons stylesheets
-
-  Usage
-    $ tachyons <input.css>
-
-  Options
-    -m, --minify Minify the output stylesheet
-    --generate-docs Generate documentation for a given module
-    --package The path to the module package to be documented
-
-  Example
-    $ tachyons src/tachyons.css > dist/c.css
-    $ tachyons src/tachyons.css > dist/c.css --minify
-    $ tachyons src/tachyons-type-scale.css --generate-docs --package=./package.json > readme.md

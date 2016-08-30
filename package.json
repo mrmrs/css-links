@@ -1,7 +1,7 @@
 {
   "name": "css-links",
   "style": "links.css",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "http://github.com/mrmrs/css-links",
   "description": "Css module of single purpose classes for links",
   "keywords": [

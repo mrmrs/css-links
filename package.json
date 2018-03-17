@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^1.0.8"
+    "tachyons-cli": "^1.3.0"
   },
   "scripts": {
     "start": "tachyons src/css-links.css > css/css-links.css && tachyons src/css-links.css --minify > css/css-links.min.css && tachyons src/css-links.css --generate-docs --package=../../package.json > readme.md"

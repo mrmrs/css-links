@@ -1,38 +1,44 @@
 {
   "name": "css-links",
-  "style": "links.css",
-  "version": "1.0.8",
-  "homepage": "http://github.com/mrmrs/css-links",
-  "description": "Css module of single purpose classes for links",
+  "version": "2.0.0",
+  "description": "Functional CSS for links",
+  "style": "dist/links.css",
+  "main": "dist/links.css",
+  "exports": {
+    ".": "./dist/links.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "links"
+    "links",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-links": {
+  "homepage": "https://github.com/mrmrs/css-links",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-links.git"
+    "url": "https://github.com/mrmrs/css-links.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-links/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-links/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }

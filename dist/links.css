@@ -1,18 +1,21 @@
-/*
-   LINKS
-*/
-
-.link { text-decoration: none; }
-
-@media screen and (min-width: 48em) {
-  .link-ns { text-decoration: none; }
+.link {
+  text-decoration: none;
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
-  .link-m { text-decoration: none; }
+@media screen and (width >= 32em) {
+  .link-s {
+    text-decoration: none;
+  }
 }
 
-@media screen and (min-width: 64em) {
-  .link-l { text-decoration: none; }
+@media screen and (width >= 48em) {
+  .link-m {
+    text-decoration: none;
+  }
 }
 
+@media screen and (width >= 96em) {
+  .link-l {
+    text-decoration: none;
+  }
+}

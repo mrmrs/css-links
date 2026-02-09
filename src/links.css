@@ -4,15 +4,15 @@
 
 .link { text-decoration: none; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .link-s { text-decoration: none; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .link-m { text-decoration: none; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .link-l { text-decoration: none; }
 }
 
